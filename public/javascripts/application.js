@@ -16,7 +16,7 @@ $(function() {
     return false;
   });
 
-  $('#pick_1').click(function() { pick(1, 6000); return false; });
+  $('#pick_1').click(function() { pick(1, 2000); return false; });
   $('#pick_5').click(function() { pick(5, 2000); return false; });
   $('#entry_counter').click(function() { console.log(entries); return false; });
   $('#prizes_link').click(function() { return false; });
