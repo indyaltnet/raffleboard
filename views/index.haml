@@ -14,9 +14,7 @@
 
     #header
       %a#add_entries_link{ :href => '#' }add entries
-      %a#prizes_link{ :href => '#' } sponsors
       %a#pick_1.pick{ :href => '#' } Pick 1
-      %a#pick_5.pick{ :href => '#' } Pick 5
       
       %form{ :id => 'entries_form' }
         %input{ :type => :text, :id => :new_entries, :value => 'numbers, ranges...' }
@@ -26,9 +24,6 @@
 
     #wrapper
     
-      #prizes
-        %img{ :id => 'sponsor', :src => '/images/sponsors/Codemash.gif' }
-
       #winners
         %h1= 'WINNERS (<span id="entry_counter">0</span> entries left)'
         %ul
