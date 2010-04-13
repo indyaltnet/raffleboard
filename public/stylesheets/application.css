@@ -70,20 +70,20 @@ a:hover, a.hover { color: #fff; opacity: 1.0; }
   white-space: nowrap;
 }
 
-#drawing { position: relative; width: 260px; min-height: 100px; margin: 40px auto 0 auto; }
+#drawing { position: relative; width: 400px; min-height: 100px; margin: 50px auto 0 auto; }
 #drawing li { margin-bottom: 14px; overflow: hidden; text-align: center; font-family: 'Knockout', courier; }
 #drawing li span.jq-solari-char {
   position: relative;
   float: left;
   display: block;
-  width: 40px;
-  height: 64px;
+  width: 50px;
+  height: 128px;
   margin-right: 2px;
   border-right: 1px solid #444;
   border-bottom: 1px solid #444;
   color: white;
-  font-size: 64px;
-  line-height: 64px;
+  font-size: 128px;
+  line-height: 128px;
   text-align: center;
   text-shadow: 1px 1px 1px #000;
   background: #111 url(/images/tile_background.gif) repeat-x;
