@@ -1,6 +1,10 @@
 $(function() {
   var entries = [];
 
+	$(document).shortkeys({
+		'N':  function(){ pick(1, 2000); }
+		});
+
   $('#drawing li').solari('000000');
 
   $('#add_entries_link').click(function() { 
