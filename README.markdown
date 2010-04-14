@@ -1,4 +1,5 @@
 # Raffleboard
+This app is now running at http://raffle.heroku.com
 
 ## Description
 
